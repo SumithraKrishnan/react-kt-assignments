@@ -1,0 +1,23 @@
+.headers{
+    font-weight: bold;
+    color:blueviolet;
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+}
+.container{
+    background-color:aliceblue;
+}
+.input{
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+}
+.button{
+    background-color: azure;
+    margin-top: 10px;
+    
+}
+.list{
+    list-style-type: none;
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+}
