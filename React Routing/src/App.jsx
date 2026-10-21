@@ -35,11 +35,15 @@ import ThemePage from './Hooks/ThemePage'
 import LoginPage from './Hooks/LoginPage'
 import ProfilePage from './Hooks/ProfilePage'
 import ProtectedRoute from './Hooks/ProctectedRoute'
-import Counter from './Hooks/Counter'
+//import Counter from './Hooks/Counter'
 import Todolist_Reducer from './Hooks/Todolist_Reducer'
 import Filteredlist_useMemo from './Hooks/Filteredlist_useMemo'
 import Parent from './Hooks/MemoizedChild'
 import NotesApp from './Hooks/NotesApp'
+import Theme from './CustomHooks/Theme'
+import Counter from './CustomHooks/Counter'
+import PersistedTodoList from './CustomHooks/PersistedTodoList'
+import NotesApp2 from './CustomHooks/Peristant _Notes_search'
 
 
 // const Dashboard=lazy(()=>import("./Components/Dashboard"));
@@ -217,7 +221,15 @@ function App() {
 
      {/*  Mini Project */}
 
-     <NotesApp/>
+     {/* <NotesApp/> */}
+
+     {/* Custom Hooks assignments */}
+
+     <Counter/>
+     <Theme/>
+      <PersistedTodoList/>
+      <NotesApp2/>
+      
 
     </> 
 
